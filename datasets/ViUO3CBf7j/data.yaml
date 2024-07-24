@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: kibo-hei0k
+  project: parking-slot-detection-jfx0k
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kibo-hei0k/parking-slot-detection-jfx0k/dataset/3
