@@ -16,3 +16,18 @@
   orcid = {0000-0001-5950-6979, 0000-0002-7603-6750, 0000-0003-3783-7069},
   license = {AGPL-3.0}
 }
+
+### Roboflow Dataset
+@misc{
+      vehicles-coco_dataset,
+      title = { Vehicles-coco Dataset },
+      type = { Open Source Dataset },
+      author = { Vehicle MSCOCO },
+      howpublished = { \url{ https://universe.roboflow.com/vehicle-mscoco/vehicles-coco } },
+      url = { https://universe.roboflow.com/vehicle-mscoco/vehicles-coco },
+      journal = { Roboflow Universe },
+      publisher = { Roboflow },
+      year = { 2022 },
+      month = { jan },
+      note = { visited on 2024-10-27 },
+      }
