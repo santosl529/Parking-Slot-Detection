@@ -159,14 +159,14 @@ def main():
                         default=0.9)
     parser.add_argument("--conf", 
                         help= "Minimum model confidence when detecting cars. Default is 0.7",
-                        default=0.9)
+                        default=0.7)
     parser.add_argument("-v",
                         help= "Sets source type to Video. Default is Image",
                         action="store_true",
                         )
     parser.add_argument("--size_mult", 
                         help= "Ignores cars in the background/distance. Higher number filters out more cars. Default is 0.7",
-                        default=0.9)
+                        default=0.7)
     parser.add_argument("--src", 
                         help= "Path to images/videos. Default is /images or /videos based on the media type",
                         default="")
